@@ -2,7 +2,7 @@ from operator import index
 import streamlit as st
 #import plotly.express as px
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 from pycaret.datasets import get_data
 from sklearn.metrics import confusion_matrix
@@ -25,7 +25,6 @@ with st.sidebar:
         choice=st.radio("Navigation",["Upload","Profile","Predict","Download"])
         st.info("Automating the end-to-end process of applying machine learning algorithms on real-world problems")
 
-    #option=st.selectbox("Select an option:", ["Regression","Classification"])
 
 
 if option=='Regression':
