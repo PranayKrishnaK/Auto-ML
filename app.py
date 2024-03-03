@@ -6,10 +6,10 @@ import pandas as pd
 #import seaborn as sns
 #from pycaret.datasets import get_data
 #from sklearn.metrics import confusion_matrix
-from pycaret.classification import *
-from pycaret.anomaly import *
+#from pycaret.classification import *
+#from pycaret.anomaly import *
 from pycaret.regression import setup, compare_models, pull, save_model, load_model,evaluate_model,plot_model
-from pycaret.regression import *
+#from pycaret.regression import *
 from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 #from sklearn.preprocessing import LabelEncoder
