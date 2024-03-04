@@ -1,13 +1,8 @@
-pandas
-numpy
-pandas_profiling
-streamlit
-streamlit_pandas_profiling
-matplotlib
-pycaret
-from pycaret.classification import *
-from pycaret.anomaly import *
-from pycaret.regression import setup, compare_models, pull, save_model, load_model,evaluate_model,plot_model
-from pycaret.regression import *
-from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_repor
+pandas= 1.5.3
+pandas-profiling= 3.6.6
+numpy= 1.24.4
+streamlit=1.30.0
+streamlit-pandas-profiling=0.1.3
+matplotlib= 3.6.0
+pycaret= 3.3.0
+ydata-profiling=4.6.4
