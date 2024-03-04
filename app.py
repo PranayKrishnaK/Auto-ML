@@ -12,7 +12,7 @@ from pycaret.regression import setup, compare_models, pull, save_model, load_mod
 from pycaret.regression import *
 from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
-from sklearn.preprocessing import LabelEncoder
+#from sklearn.preprocessing import LabelEncoder
 import os 
 import sys
 sys.setrecursionlimit(10000000)

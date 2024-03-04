@@ -5,3 +5,9 @@ streamlit
 streamlit_pandas_profiling
 matplotlib
 pycaret
+from pycaret.classification import *
+from pycaret.anomaly import *
+from pycaret.regression import setup, compare_models, pull, save_model, load_model,evaluate_model,plot_model
+from pycaret.regression import *
+from ydata_profiling import ProfileReport
+from streamlit_pandas_profiling import st_profile_repor
